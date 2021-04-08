@@ -47,6 +47,33 @@ hr {
     background-color: #428BCA;
 }
 
+@media screen and (min-width: 531px) and (max-width:1000px) {
+
+    .container {
+        margin-top: 0px;
+        padding: 10px 0;
+    }
+    .bg-grey {
+        background-color: transparent;
+    }
+    .bg-color {
+        background-color: #F2F2CD;
+    }
+    hr {
+        display: none;
+    }
+    img {
+        margin-top: 25px;
+        height: 150px;
+    }
+    .blue-icon {
+        margin-top: 20px;
+        height: 150px;
+    }
+
+}
+
+
 @media screen and (max-width: 530px) {
 
     .container {
